@@ -15,7 +15,7 @@ import static org.junit.Assert.fail;
 
 public class DALTest {
     //TODO: Indsæt din egen implementering
-    IUserDAO userDAO = new UserDAOImpls134000();
+    IUserDAO userDAO = new dal.UserDAOImpls185083();
     @Test
     public void test() {
         try {
